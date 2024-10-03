@@ -1,0 +1,20 @@
+.navbar{
+    background-color: rgba(139, 241, 207);
+}
+body{
+    font-family: "Open Sans", sans-serif;
+    
+}
+
+.titulos{
+    color: #155864;
+    font-family: "Lobster", sans-serif;
+}
+
+.carousel-item img{
+    height: 70vh;
+}
+
+.section-style{
+    background-color: rgb(163, 207, 207);
+}
