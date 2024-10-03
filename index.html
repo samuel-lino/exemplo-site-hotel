@@ -8,44 +8,52 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header class="navbar navbar-expand-lg sticky-top">
         <div class="container">
-            <h1 class="titulos">Nome do hotel</h1>
+            <a class="titulos navbar-brand fs-1" href="#carrossel"><i class="bi bi-buildings pe-1"></i>Nome do hotel</a>
             <nav class="nav nav-pills">
                 <ul class="nav">
                     <li class="nav-item">
-                        <a class="nav-link active" href="#sobre">Sobre o hotel</a>
+                        <a class="nav-link " href="#sobre"><i class="bi bi-buildings-fill pe-1"></i>Sobre o hotel</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="">Os quartos</a>
+                        <a class="nav-link" href="#quartos"><i class="bi bi-house-fill pe-1"></i>Os quartos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="">Areas de lazer</a>
+                        <a class="nav-link" href=""><i class="bi bi-sunglasses pe-1"></i>Areas de lazer</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="">Faça a sua reserva</a>
+                        <a class="nav-link" href=""><i class="bi bi-telephone-forward pe-1"></i>Faça a sua reserva</a>
                     </li>
                 </ul>
             </nav>
         </div>
     </header>
-    <div class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img src="./imagens/Leonardo_Phoenix_A_serene_and_inviting_scene_depicting_the_faa_1.jpg" class="d-block w-100" alt="">
-            </div>
-            <div class="carousel-item">
-                <img src="./imagens/Leonardo_Phoenix_A_serene_and_inviting_scene_depicting_the_faa_2.jpg" class="d-block w-100" alt="">
-            </div>
-            <div class="carousel-item">
-                <img src="./imagens/Leonardo_Phoenix_A_serene_and_inviting_scene_depicting_the_faa_3.jpg" class="d-block w-100" alt="">
+    <div class="conteiner" data-bs-spy="scroll">
+        <div class="carousel slide" data-bs-ride="carousel" id="carrossel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./imagens/Leonardo_Phoenix_A_serene_and_inviting_scene_depicting_the_faa_1.jpg" class="d-block w-100" alt="">
+                </div>
+                <div class="carousel-item">
+                    <img src="./imagens/Leonardo_Phoenix_A_serene_and_inviting_scene_depicting_the_faa_2.jpg" class="d-block w-100" alt="">
+                </div>
+                <div class="carousel-item">
+                    <img src="./imagens/Leonardo_Phoenix_A_serene_and_inviting_scene_depicting_the_faa_3.jpg" class="d-block w-100" alt="">
+                </div>
+                <button class="carousel-control-prev"><span class="carousel-control-prev-icon" data-bs-slide="prev" data-bs-target="#carrossel"></span></button>
+                <button class="carousel-control-next"><span class="carousel-control-next-icon" data-bs-slide="next" data-bs-target="#carrossel"></span></button>
+                <div class="carousel-indicators">
+                    <button class="active" data-bs-target="#carrossel" data-bs-slide-to="0"></button>
+                    <button data-bs-target="#carrossel" data-bs-slide-to="1"></button>
+                    <button data-bs-target="#carrossel" data-bs-slide-to="2"></button>
+                </div>
             </div>
         </div>
-    </div>
-    <div class="conteiner" data-bs-spy="scroll">
         <section id="sobre" class="pt-5 pb-4 section-style">
             <div class="row">
                 <aside class="col-md-6">
@@ -62,7 +70,7 @@
             </div>
         </section>
         <section id="quartos" class="pt-5 pb-4">
-            
+
         </section>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
