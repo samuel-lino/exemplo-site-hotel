@@ -19,14 +19,26 @@ body{
     background-color: rgb(163, 207, 207);
 }
 
+#sobre img{
+    margin-bottom: 16px;
+}
+
 textarea{
     resize: none;
 }
 
-#contato form button{
-    color: rgb(16, 109, 16);
+#area-lazer h5{
+    margin: 16px 0;
 }
 
+#contato form button{
+    color: rgb(16, 109, 16);
+    
+}
+
+.error{
+    color: red;
+}
 
 #contato form input,
 #contato form textarea{
@@ -46,4 +58,8 @@ textarea{
     .carousel-item img{
         height: 40vh;
     }
+}
+
+footer{
+    background-color: rgb(180, 236, 218);
 }
