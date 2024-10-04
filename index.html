@@ -20,8 +20,9 @@
     <header class="navbar navbar-expand-lg sticky-top">
         <div class="container">
             <a class="titulos navbar-brand fs-1" href="#carrossel"><i class="bi bi-buildings pe-1"></i>Nome do hotel</a>
-            <nav class="nav nav-pills">
-                <ul class="nav">
+            <button class="navbar-toggler"><span class="navbar-toggler-icon" data-bs-toggle="collapse" data-bs-target="#menu-navegacao"></span></button>
+            <nav class="navbar-collapse collapse justify-content-end " id="menu-navegacao">
+                <ul class="nav nav-pills d-block d-md-flex">
                     <li class="nav-item">
                         <a class="nav-link " href="#sobre"><i class="bi bi-buildings-fill pe-1"></i>Sobre o hotel</a>
                     </li>
@@ -32,7 +33,7 @@
                         <a class="nav-link" href="#area-lazer"><i class="bi bi-sunglasses pe-1"></i>Areas de lazer</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href=""><i class="bi bi-telephone-forward pe-1"></i>Faça a sua reserva</a>
+                        <a class="nav-link" href="#contato"><i class="bi bi-telephone-forward pe-1"></i>Fale conosco</a>
                     </li>
                 </ul>
             </nav>
@@ -141,40 +142,40 @@
             <div class="row m-2">
                 <h2 class="titulos text-center">Areas de lazer</h2>
             </div>
-            <div class="row m-2">
-                <aside class="col-2 pb-2">
+            <div class="row">
+                <aside class="col-md-2 pb-2">
                     <nav class="nav nav-pills flex-column">
-                        <button type="button" data-bs-toggle="tab" data-bs-target="#relaxantes" class="nav-link active">Relaxantes</button>
-                        <button type="button" data-bs-toggle="tab" data-bs-target="#esportes" class="nav-link ">Esportes</button>
-                        <button type="button" data-bs-toggle="tab" data-bs-target="#noturnos" class="nav-link ">Noturnos</button>
+                        <button type="button" data-bs-toggle="tab" data-bs-target="#relaxantes" class="text-start nav-link active">Relaxantes</button>
+                        <button type="button" data-bs-toggle="tab" data-bs-target="#esportes" class="text-start nav-link ">Esportes</button>
+                        <button type="button" data-bs-toggle="tab" data-bs-target="#noturnos" class="text-start nav-link ">Noturnos</button>
                     </nav>
                 </aside>
-                <div class="col-10 pb-2">
+                <div class="col-md-10 pb-2">
                     <div class="tab-content">
                         <div class="tab-pane active" id="relaxantes">
                             <div class="row">
-                                <div class="col-3 pb-2">
+                                <div class="col-md-3 pb-2">
                                     <img class="d-block w-100"
                                         src="./imagens/Leonardo_Phoenix_A_vibrant_and_inviting_scene_depicting_leisur_0.jpg"
                                         alt="">
                                     <h5 class="titulos text-center">Opção 1</h5>
                                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
                                 </div>
-                                <div class="col-3 pb-2">
+                                <div class="col-md-3 pb-2">
                                     <img class="d-block w-100"
                                         src="./imagens/Leonardo_Phoenix_A_vibrant_and_inviting_scene_depicting_leisur_1.jpg"
                                         alt="">
                                     <h5 class="titulos text-center">Opção 2</h5>
                                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
                                 </div>
-                                <div class="col-3 pb-2">
+                                <div class="col-md-3 pb-2">
                                     <img class="d-block w-100"
                                         src="./imagens/Leonardo_Phoenix_A_vibrant_and_inviting_scene_depicting_leisur_2.jpg"
                                         alt="">
                                     <h5 class="titulos text-center">Opção 3</h5>
                                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
                                 </div>
-                                <div class="col-3 pb-2">
+                                <div class="col-md-3 pb-2">
                                     <img class="d-block w-100"
                                         src="./imagens/Leonardo_Phoenix_A_vibrant_and_inviting_scene_depicting_leisur_3.jpg"
                                         alt="">
@@ -185,28 +186,28 @@
                         </div>
                         <div class="tab-pane" id="esportes">
                             <div class="row">
-                                <div class="col-3 pb-2">
+                                <div class="col-md-3 pb-2">
                                     <img class="d-block w-100"
                                         src="./imagens/Leonardo_Phoenix_A_serene_coastal_hotel_featuring_expansive_ar_0.jpg"
                                         alt="">
                                     <h5 class="titulos text-center">Opção 1</h5>
                                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
                                 </div>
-                                <div class="col-3 pb-2">
+                                <div class="col-md-3 pb-2">
                                     <img class="d-block w-100"
                                         src="./imagens/Leonardo_Phoenix_A_serene_coastal_hotel_featuring_expansive_ar_1.jpg"
                                         alt="">
                                     <h5 class="titulos text-center">Opção 2</h5>
                                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
                                 </div>
-                                <div class="col-3 pb-2">
+                                <div class="col-md-3 pb-2">
                                     <img class="d-block w-100"
                                         src="./imagens/Leonardo_Phoenix_A_serene_coastal_hotel_featuring_expansive_ar_2.jpg"
                                         alt="">
                                     <h5 class="titulos text-center">Opção 3</h5>
                                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
                                 </div>
-                                <div class="col-3 pb-2">
+                                <div class="col-md-3 pb-2">
                                     <img class="d-block w-100"
                                         src="./imagens/Leonardo_Phoenix_A_serene_coastal_hotel_featuring_expansive_ar_3.jpg"
                                         alt="">
@@ -217,28 +218,28 @@
                         </div>
                         <div class="tab-pane" id="noturnos">
                             <div class="row">
-                                <div class="col-3 pb-2">
+                                <div class="col-md-3 pb-2">
                                     <img class="d-block w-100"
                                         src="./imagens/Leonardo_Phoenix_A_serene_nocturnal_scene_of_a_hotel_by_the_se_0.jpg"
                                         alt="">
                                     <h5 class="titulos text-center">Opção 1</h5>
                                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
                                 </div>
-                                <div class="col-3 pb-2">
+                                <div class="col-md-3 pb-2">
                                     <img class="d-block w-100"
                                         src="./imagens/Leonardo_Phoenix_A_serene_nocturnal_scene_of_a_hotel_by_the_se_1.jpg"
                                         alt="">
                                     <h5 class="titulos text-center">Opção 2</h5>
                                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
                                 </div>
-                                <div class="col-3 pb-2">
+                                <div class="col-md-3 pb-2">
                                     <img class="d-block w-100"
                                         src="./imagens/Leonardo_Phoenix_A_serene_nocturnal_scene_of_a_hotel_by_the_se_2.jpg"
                                         alt="">
                                     <h5 class="titulos text-center">Opção 3</h5>
                                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
                                 </div>
-                                <div class="col-3 pb-2">
+                                <div class="col-md-3 pb-2">
                                     <img class="d-block w-100"
                                         src="./imagens/Leonardo_Phoenix_A_serene_nocturnal_scene_of_a_hotel_by_the_se_3.jpg"
                                         alt="">
@@ -248,6 +249,47 @@
                             </div>
                         </div>
                     </div>
+                </div>
+            </div>
+        </section>
+        <section id="contato" class="pt-5">
+            <h2 class="titulos text-center">Fale conosco</h2>
+            <div class="row p-2">
+                <div class="col-md-6">
+                    <form>
+                        <div>
+                            <label for="nome" class="form-label titulos">Seu nome</label>
+                            <input type="text" id="nome" class="form-control">
+                        </div>
+                        <div>
+                            <label for="email" class="form-label titulos">Seu E-mail</label>
+                            <input type="email" id="email" class="form-control">
+                        </div>
+                        <div>
+                            <label for="telefone" class="form-label titulos">Seu telefone</label>
+                            <input type="tel" id="telefone" class="form-control">
+                        </div>
+                        <div>
+                            <label for="mensagem" class="form-label titulos">Sua mensagem</label>
+                            <textarea id="mensagem" class="form-control"></textarea>
+                        </div>
+                        <button type="button" class="btn btn-info"><i class="bi bi-cursor-fill"></i>Enviar</button>
+                    </form>
+                </div>
+                <div class="col-md-6">
+                    <h3 class="titulos">Visite nossas redes sociais</h3>
+                    <ul>
+                        <li class="me-3"><a href="" title="Facebook"><i class="bi bi-facebook"></i></a></li>
+                        <li><a href="" title="Instagram"><i class="bi bi-instagram"></i></a></li>
+                    </ul>
+                    <h3 class="titulos">Endereço</h3>
+                    <p>
+                        Hotel Praia Azul Av. dos Pescadores, 1234
+                    </p>
+                    <p>Bairro Maravilha</p>
+                    <p>Cidade do Sol, Estado Brilhante</p>
+                    <p>CEP: 12345-678</p>
+                    <p> Brasil</p>
                 </div>
             </div>
         </section>

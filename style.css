@@ -18,3 +18,32 @@ body{
 .section-style{
     background-color: rgb(163, 207, 207);
 }
+
+textarea{
+    resize: none;
+}
+
+#contato form button{
+    color: rgb(16, 109, 16);
+}
+
+
+#contato form input,
+#contato form textarea{
+    margin-bottom: 8px;
+}
+
+#contato form textarea{
+    height: 20vh;
+}
+
+#contato ul li{
+    display: inline;
+    font-size: 28pt;
+}
+
+@media (max-width:767px){
+    .carousel-item img{
+        height: 40vh;
+    }
+}
